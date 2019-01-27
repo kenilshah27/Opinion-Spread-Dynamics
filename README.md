@@ -1,5 +1,8 @@
 # Opinion-Spread-Dynamics
 
+**Voter Model** - In this model, each of the individuals has an opinion {-1,1} in the beginning. Now with time people interact with their neighbors and start to take up opinions of their neighbors. This model is based on this fact and takes this interaction into consideration. Each timestep we pick one person at random and then assign him/her the opinion of one of its randomly picked neighbors. 
+This is a basic concept on which this model works. 
+
 **Sznajd** - This is also an interaction model where each of the individuals have an initial opinion of {-1,1} . A pair of neighboring agents is picked and if they have a similar opinion , each of their neigbour takes up that similar opinion. If they do not agree with each
 other, no changes happen in the model. This is based on the fact that if many people have a certain opinion, people tend to take up that
 opinion. But if an individual has some opinion, people generally do not start taking up his/her opinion.
