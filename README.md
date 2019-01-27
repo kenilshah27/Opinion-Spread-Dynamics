@@ -1,3 +1,5 @@
 # Opinion-Spread-Dynamics
 
+**Majority Rule Model** - In a social setting, people would have some opinion {-1,1} initially. In each step, a random group of members is selected, and each of the memeber in the group , takes up an opinion that is the majority opinion of the group. SO if in a group 6 people have a positive opinion and 2 have a negative opinion, after interaction each of them will have a positive opinion. A variation of this model is that, an individual is selected and he takes up the opinion that is majority among its neighbours. So if a person has a negative opinion, but 6 out of 8  of its neighbors has a postive opinion, he would end up taking the positive opinion.
+
 **Hegselmann_Krause model** - This is similar to Deffuant model in which a pair of individual interact, and takes up opinion that is an average of their opinion. What happens in Hegselmann_Krause model is that instead of taking one of its neighbors, it selects all of its neighbors. The opinionthat is the average of all the opinions of its neighbors is then adopted by the individual in question. 
