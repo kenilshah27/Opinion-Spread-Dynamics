@@ -1,5 +1,7 @@
 # Opinion-Spread-Dynamics
 
+**Deffuant** - This model is based on the fact that interactions takes place in a social environment and individuals opinion's are affected when they interact someone who has an opinion similar or dissimilar to them. What happens in this model is that when two individual interacted they share their opinion, if they have a similiar opinion they would have a constructive debate and both of their opinions move close to each other. They opinions would start coming close to each other. If they have a very dissimiliar opinion ,they would not agree with each other and woulf return with their initial opinion without the interactions. All this parameter of dissimilarity and how much an opinion will be changed can be controlled depending on our requirement. The model will stop we have form distinct groups whose opinion do not match and hence their is no further scope of improvement in the model. 
+
 **Voter Model** - In this model, each of the individuals has an opinion {-1,1} in the beginning. Now with time people interact with their neighbors and start to take up opinions of their neighbors. This model is based on this fact and takes this interaction into consideration. Each timestep we pick one person at random and then assign him/her the opinion of one of its randomly picked neighbors. 
 This is a basic concept on which this model works. 
 
